@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QUIZ APP (TGPCET)</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Merriweather&family=Roboto+Mono&family=Roboto:wght@700&family=Sen&family=Space+Grotesk:wght@700&family=Space+Mono&family=Trispace&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Roboto+Mono&family=Roboto:wght@700&family=Sen:wght@400;700&family=Space+Grotesk:wght@700&family=Space+Mono&family=Trispace&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&family=Roboto+Mono&family=Roboto:wght@700&family=Sen:wght@400;700&family=Space+Grotesk:wght@700&family=Space+Mono:wght@400;700&family=Trispace&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/2c64aa45ad.js" crossorigin="anonymous"></script>
+
+  <!--Font Awesome CDN Link for icons-->
+
+</head>
+<body>
+       <!--Start Quiz Button-->
+       <div class="start_btn">
+         <button type="button">Start Quiz</button>
+       </div>
+
+       <!--Info Box-->
+       <div class="info_box">
+        <div class="container"> 
+         <div class="info_title">
+           <span>Some Rules of this Quiz Aptitude Test</span>
+           <h3 class="read">Read all the instructions carefully.</h3>
+         </div>
+         <div class="info_list">
+           <div class="info">1. You will have only <span class="blue">20 seconds</span> per each question.</div>
+           <div class="info">2. Once you select any answer, you <span class="blue">can't  reselect.</span></div>
+           <div class="info">3. You can't select any options once <span class="blue">time goes off.</span>
+          </div>
+           <div class="info">4. You can't <span class="blue">exit</span> from the Quiz while you're playing.</div>
+           <div class="info">5. You will get <span class="blue">points</span> on the basis of your <span class="blue">correct</span> answer.</div>
+         </div>
+        </div> 
+         <div class="buttons">
+           <button class="quit">Exit Quiz</button>
+           <button class="restart">Continue</button>
+         </div>
+       </div>
+
+       <!--Quiz Box-->
+
+       <div class="quiz_box">
+          <header>
+            <div class="title">Aptitude Quiz Application</div>
+            <div class="timer">
+                <div class="time_text">Time Left:</div>
+                <div class="time_sec">20</div>
+            </div>
+            <div class="time_line"></div>
+          </header>
+          <section>
+            <div class="que_text">
+              <!-- <span>What does HTML stand for?</span> -->
+            </div>
+            <div class="option_list">
+              <!-- <div class="option">
+                <span>Hyper Text Preprocessor</span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+              </div>
+              <div class="option">
+                <span>Hyper Text Markup Language</span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+              </div>
+              <div class="option">
+                <span>Hyper Text Multiple Language</span>
+              </div>
+              <div class="option">
+                <span>Hyper Tool Multiple Language</span>
+              </div> -->
+            </div>
+          </section>
+
+          <!--Quiz Box Footer-->
+          <footer>
+            <div class="total_que">
+              <!-- <span><p>2</p>of<p>5</p>Questions</span> -->
+            </div>
+            <button class="next_btn">Next Question</button>
+          </footer>
+
+       </div>
+
+       <!--Result Box-->
+       <div class="result_box">
+         <div class="complete_text">You've completed the Quiz!</div>
+         <div class="score_text">
+           <span>and sorry, You got only <p>2</p> out of <p>5</p></span>
+         </div>
+         <div class="complete_text ttt">Thanks!</div>
+         <div class="college_text">
+           <p>Tulshiramji Gaikwad-Patil College of Engineering and Technology</p>
+         </div>
+         <div class="buttons">
+           <button class="quit_last">Go Back</button>
+         </div>
+         <div class="developed">
+           <p>developed by <a href="https://www.linkedin.com/in/aniket-a-raikwar/" target="_blank" class="profile" title="See Profile">Aniket A. Raikwar</a></p>
+         </div>
+        </div>
+
+       <script type="text/javascript" src="./javaScript/app.js"></script>
+       <script type="text/javascript" src="./javaScript/question.js"></script>
+</body>
+</html>
