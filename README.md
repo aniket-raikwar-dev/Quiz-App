@@ -18,3 +18,5 @@ and there is a Timer on the upper right side which show how many time is left to
 the user have to choose before the time is end, otherwise they can't be select any option after time reach, the options will be disabled.
 and once they clicked on option there is next button which can be enabled and after clicking on it the user will goes to the next questions.
 and one more thing is that, if user clicked on option if the answer is correct then they will give us greenish color otherwise they will show a red color which means you select the wrong answer.
+
+Fourth - After solving all the question the user will goes to the result page and in that page they show, How many correct answer and wrong answer you have chooosed and the overall result of that test. and the college name of the developers and also showed the profile link of developer which has create this game.
