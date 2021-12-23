@@ -12,3 +12,9 @@ We can change the Instruction set according to the clients needs.
 Second - Once You read all the instructions then there is 2 Buttons - Once is for cancle teh exam and the other one is Proceed further.
 If user can clicked on cancle button then they will be go to first page. 
 and If they clicked on next proceed further then there exam should be start and now they can't go back and quit the exam.
+
+Third - There is array of list which contains the question, now the client can change and add more question according to them but for now I have only add 5 question and each question have 4 option and  we have to select only one. 
+and there is a Timer on the upper right side which show how many time is left to do one question, by default it is only 20 seconds per question but it can also be changed, 
+the user have to choose before the time is end, otherwise they can't be select any option after time reach, the options will be disabled.
+and once they clicked on option there is next button which can be enabled and after clicking on it the user will goes to the next questions.
+and one more thing is that, if user clicked on option if the answer is correct then they will give us greenish color otherwise they will show a red color which means you select the wrong answer.
