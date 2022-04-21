@@ -2,63 +2,64 @@
 let questions = [
   {
     numb: 1,
-    question: "Who is the developer of this app?",
-    answer: "Aniket A. Raikwar",
+    question: "Who is the first Indian to recieve Nobel Prize?",
+    answer: "Ravinder Nath Tagore",
     options: [
       "Mark Zukerburg",
       "Elon Musk",
-      "Aniket A. Raikwar",
+      "Ravinder Nath Tagore",
       "Jeff Bezos",
     ]
   },
 
   {
     numb: 2,
-    question: "What does CSS Stand for?",
-    answer: "Cascading Style Sheet",
+    question: "Teacher Day celebrated?",
+    answer: "5 September",
     options: [
-      "Cascading Style Sheet",
-      "Computer Software Security",
-      "Computer Stand Style",
-      "Common Software Settle",
+      "5 September",
+      "12 January",
+      "8 October",
+      "15 July",
     ]
   },
 
   {
     numb: 3,
-    question: "Dat Structure - Stack follow which pattern?",
-    answer: "L I F O",
+    question: "When was the nuclear bomb was dropped in Japan?",
+    answer: "1945",
     options: [
-      "L I F O",
-      "F I L O",
-      "F I F O",
-      "C I L O",
+      "1928",
+      "1945",
+      "1954",
+      "1967",
     ]
   },
 
   {
     numb: 4,
-    question: "Select the Non-Primitive Data Types?",
-    answer: "Array",
+    question: "Who is knowing as 'Flying Sikh'?",
+    answer: "Milkha Singh",
     options: [
-      "Boolean",
-      "String",
-      "Integer",
-      "Array",
+      "Harbajan Singh",
+      "Ketan Singh",
+      "Milkha Singh",
+      "Honey Singh",
     ]
   },
 
   {
     numb: 5,
-    question: "Time Complexity of an Binary Search?",
-    answer: "O(log n)",
+    question: "National Defence Academy is located in?",
+    answer: "Dehradun",
     options: [
-      "O(N log n)",
-      "O(n)",
-      "O(log n)",
-      "O(2n)",
+      "Kolkatta",
+      "Shimla",
+      "Lucknow",
+      "Dehradun",
     ]
   },
+
 
 
 ];
